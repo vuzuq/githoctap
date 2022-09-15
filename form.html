@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Form</title>
+        <meta>
     </head>
     <body>
-      2231231
+        <form action="index.html" method="post"  >
+            <label>Username</label><br>
+            <input type="text" maxlength="10" value="Tai khoan"><br><br>
+            <label>Password</label><br>
+            <input type="password"><br><br>
+            <button inputmode="submit">Dang nhap</button>
+            <br><br>
+           Remember?
+           <br><br>
+            <input type="checkbox" name="gt">
+            <br><br>
+            <input type="radio" name="gt" value="nam">
+            <input type="radio" name="gt" value="nu">
+            <br><br>
+            <input type="submit" name="btnSend" value="Dang nhap">
+            <input type="reset"><br><br>
+            <input type="button" name="bttn1" value="Javascript" onclick="alert('Hello World')">
+            <br><br>
+            <textarea></textarea><br><br>
+            <label for="languages">Tieng Anh</label>
+            <input type="text" id="languages">
+            <br><br>
+            <select name="Soft">
+                <optgroup label="old Windows">
+                    <option value="W98">Window 98</option>
+                    <option value="WXP">Window XP</option>
+                </optgroup>
+                <optgroup label="new Windows">
+                    <option value="W7">Window 7</option>
+                    <option value="W10">Window 10</option>
+                </optgroup>
+            </select>
+        </form>
     </body>
 </html>
